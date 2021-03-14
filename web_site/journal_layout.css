@@ -15,11 +15,10 @@ body {
     background: #77f4fd;
     text-align: right;
 }
-
-.container.content {
+.content {
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
     padding: 8px;
     flex-basis: content-box;
 }
@@ -29,7 +28,8 @@ body {
 }
 
 .side-panel {
-    flex:30%
+    flex:30%;
+    margin-left: 12px;
 }
 
 .widget {
